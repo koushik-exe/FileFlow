@@ -1,0 +1,258 @@
+{
+  "communities": {
+    "0": [
+      "fileflow_fileflowapp_build_ui",
+      "fileflow_fileflowapp_init",
+      "fileflow_fileflowapp_render_empty_activity_state",
+      "fileflow_herofoldercard",
+      "fileflow_herofoldercard_browse",
+      "fileflow_herofoldercard_init",
+      "fileflow_rationale_384",
+      "fileflow_rationale_468",
+      "fileflow_rationale_870",
+      "fileflow_statcard",
+      "fileflow_statcard_init"
+    ],
+    "1": [
+      "fileflow_fileflowapp",
+      "fileflow_fileflowapp_add_activity_item",
+      "fileflow_fileflowapp_drain_queue",
+      "fileflow_fileflowapp_revert_worker",
+      "fileflow_fileflowapp_start_god_mode",
+      "fileflow_fileflowapp_start_revert",
+      "fileflow_herofoldercard_get",
+      "fileflow_rationale_540",
+      "fileflow_rationale_882",
+      "fileflow_rationale_908"
+    ],
+    "2": [
+      "_agents_rules_graphify_get_node",
+      "_agents_rules_graphify_graphify",
+      "_agents_rules_graphify_graphify_explain",
+      "_agents_rules_graphify_graphify_path",
+      "_agents_rules_graphify_graphify_query",
+      "_agents_rules_graphify_graphify_update",
+      "_agents_rules_graphify_query_graph",
+      "_agents_rules_graphify_shortest_path",
+      "_agents_workflows_graphify_workflow"
+    ],
+    "3": [
+      "agents_rules_design_banner_design",
+      "agents_rules_design_design",
+      "agents_rules_design_social_photos",
+      "agents_rules_design_system_design_system",
+      "agents_rules_ui_styling_shadcn_ui",
+      "agents_rules_ui_styling_tailwind_css",
+      "agents_rules_ui_styling_ui_styling",
+      "agents_rules_ui_ux_pro_max_ui_ux_pro_max"
+    ],
+    "4": [
+      "fileflow_fileflowapp_worker",
+      "fileflow_format_size",
+      "fileflow_get_folder_size",
+      "fileflow_phase2_verify",
+      "fileflow_rationale_166",
+      "fileflow_rationale_180",
+      "fileflow_rationale_271",
+      "fileflow_statcard_set_value"
+    ],
+    "5": [
+      "fileflow_get_file_hash",
+      "fileflow_phase1_organize",
+      "fileflow_rationale_103",
+      "fileflow_rationale_197",
+      "fileflow_rationale_211",
+      "fileflow_scan_existing_files"
+    ],
+    "6": [
+      "fileflow_get_unique_filename",
+      "fileflow_log",
+      "fileflow_rationale_112",
+      "fileflow_rationale_158",
+      "fileflow_rationale_343",
+      "fileflow_revert_organize"
+    ],
+    "7": [
+      "fileflow_get_file_date",
+      "fileflow_get_image_date",
+      "fileflow_rationale_123",
+      "fileflow_rationale_139"
+    ],
+    "8": [
+      "fileflow",
+      "fileflow_get_category",
+      "fileflow_rationale_149"
+    ],
+    "9": [
+      "agents_rules_design_system_slide_system",
+      "agents_rules_design_system_token_architecture"
+    ],
+    "10": [
+      "agents_rules_design_cip_design"
+    ],
+    "11": [
+      "agents_rules_design_icon_design"
+    ],
+    "12": [
+      "agents_rules_design_logo_design"
+    ],
+    "13": [
+      "agents_rules_ui_ux_pro_max_accessibility"
+    ],
+    "14": [
+      "agents_rules_ui_ux_pro_max_navigation"
+    ],
+    "15": [
+      "agents_rules_ui_ux_pro_max_performance"
+    ]
+  },
+  "cohesion": {
+    "0": 0.21818181818181817,
+    "1": 0.24444444444444444,
+    "2": 0.2222222222222222,
+    "3": 0.2857142857142857,
+    "4": 0.25,
+    "5": 0.4,
+    "6": 0.3333333333333333,
+    "7": 0.5,
+    "8": 0.6666666666666666,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0
+  },
+  "gods": [
+    {
+      "id": "fileflow_fileflowapp",
+      "label": "FileFlowApp",
+      "degree": 11
+    },
+    {
+      "id": "fileflow_phase1_organize",
+      "label": "phase1_organize()",
+      "degree": 9
+    },
+    {
+      "id": "_agents_rules_graphify_graphify",
+      "label": "graphify Rules",
+      "degree": 8
+    },
+    {
+      "id": "fileflow_herofoldercard",
+      "label": "HeroFolderCard",
+      "degree": 6
+    },
+    {
+      "id": "fileflow_get_file_hash",
+      "label": "get_file_hash()",
+      "degree": 5
+    },
+    {
+      "id": "fileflow_revert_organize",
+      "label": "revert_organize()",
+      "degree": 5
+    },
+    {
+      "id": "fileflow_statcard",
+      "label": "StatCard",
+      "degree": 5
+    },
+    {
+      "id": "fileflow_get_unique_filename",
+      "label": "get_unique_filename()",
+      "degree": 4
+    },
+    {
+      "id": "fileflow_get_file_date",
+      "label": "get_file_date()",
+      "degree": 4
+    },
+    {
+      "id": "fileflow_log",
+      "label": "log()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "graphify Workflow",
+      "target": "graphify Rules",
+      "source_files": [
+        ".agents/workflows/graphify.md",
+        ".agents/rules/graphify.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; peripheral node `graphify Workflow` unexpectedly reaches hub `graphify Rules`"
+    },
+    {
+      "source": "Design Skill",
+      "target": "Design System",
+      "source_files": [
+        ".agents/rules/design.md",
+        ".agents/rules/design-system.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Design System",
+      "target": "UI Styling Skill",
+      "source_files": [
+        ".agents/rules/design-system.md",
+        ".agents/rules/ui-styling.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "conceptually_related_to",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Design Skill",
+      "target": "UI Styling Skill",
+      "source_files": [
+        ".agents/rules/design.md",
+        ".agents/rules/ui-styling.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Banner Design",
+      "target": "UI/UX Pro Max",
+      "source_files": [
+        ".agents/rules/design.md",
+        ".agents/rules/ui-ux-pro-max.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `FileFlowApp` connect `FileFlowApp` to `FileFlow.py`, `HeroFolderCard`, `._worker`?",
+      "why": "High betweenness centrality (0.160) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `HeroFolderCard` connect `HeroFolderCard` to `FileFlow.py`, `FileFlowApp`?",
+      "why": "High betweenness centrality (0.062) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `StatCard` connect `HeroFolderCard` to `FileFlow.py`, `._worker`?",
+      "why": "High betweenness centrality (0.039) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `graphify query`, `query_graph`, `graphify path` to the rest of the system?",
+      "why": "19 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

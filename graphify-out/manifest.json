@@ -1,0 +1,42 @@
+{
+  "FileFlow.py": {
+    "mtime": 1784728657.0047095,
+    "ast_hash": "42e799e1eb08ec5ad1f1e473adbd59da",
+    "semantic_hash": ""
+  },
+  ".agents/rules/graphify.md": {
+    "mtime": 1784651511.0026152,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": "a0e4d192b9e2e17256124dbfc8e24e6a"
+  },
+  ".agents/workflows/graphify.md": {
+    "mtime": 1784651511.0026152,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": "637776aa6f7496d069afe7520c845c8a"
+  },
+  ".agents/rules/design-system.md": {
+    "mtime": 1784691140.4193556,
+    "ast_hash": "399b2e5ffbeac0bc777882e340245be9",
+    "semantic_hash": "399b2e5ffbeac0bc777882e340245be9"
+  },
+  ".agents/rules/design.md": {
+    "mtime": 1784691149.961882,
+    "ast_hash": "d61b2326528cef1f0a8802c473840aa7",
+    "semantic_hash": "d61b2326528cef1f0a8802c473840aa7"
+  },
+  ".agents/rules/ui-styling.md": {
+    "mtime": 1784691129.3837314,
+    "ast_hash": "28a3c5ed8e63a04595cc398a355a3b63",
+    "semantic_hash": "28a3c5ed8e63a04595cc398a355a3b63"
+  },
+  ".agents/rules/ui-ux-pro-max.md": {
+    "mtime": 1784691117.3917496,
+    "ast_hash": "bedb201feb69f93b85049118040ef11e",
+    "semantic_hash": "bedb201feb69f93b85049118040ef11e"
+  },
+  "README.md": {
+    "mtime": 1784723017.7924867,
+    "ast_hash": "8323ae05667520d7cbf44ebbab29bc3e",
+    "semantic_hash": ""
+  }
+}
